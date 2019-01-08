@@ -1,0 +1,9 @@
+# ifconfig
+# -l to list names
+# -u to show only the ones that are UP (optional)
+
+# or
+
+# netstat -i (+ grep)
+
+ifconfig -l

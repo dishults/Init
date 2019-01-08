@@ -1,0 +1,9 @@
+# en0   Ethernet interface
+# -o    displays only the matched part
+
+ifconfig en0 | grep -o 'broadcast.*'
+echo
+arp -i en0 -a
+
+# -i    specifies interface
+# -a    displays all

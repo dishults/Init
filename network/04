@@ -1,0 +1,6 @@
+route -n get default | grep -o 'gateway.*'
+
+# -n    to print address through numbers
+
+# or
+# networksetup -getinfo Ethernet | grep -o 'Router.*'

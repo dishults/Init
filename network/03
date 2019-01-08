@@ -1,0 +1,6 @@
+networksetup -getinfo Wi-Fi | grep -o 'Wi-Fi ID.*'
+
+# or
+# ifconfig en1 | grep -o 'ether.*'
+
+# en1   Wi-Fi card
