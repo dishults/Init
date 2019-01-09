@@ -2,8 +2,12 @@
 # -l to list names
 # -u to show only the ones that are UP (optional)
 
-# or
-
-# netstat -i (+ grep)
-
 ifconfig -l
+
+# OR
+#   netstat -i | tail -n+2 | cut -d ' ' -f1 | uniq
+
+# tail  displays rest of the file starting from selected point
+# -n    line number
+# +2    starting from 2nd line
+# uniq  removes repeated lines in a file

@@ -1,0 +1,5 @@
+Do the following:
+    whois slash16.org | grep "Name Server"
+
+So, the provider of slash16.org:
+    AWS - Amazon Web Services

@@ -1,0 +1,6 @@
+networksetup -getinfo Ethernet | grep -e DHCP -e 'IP address'
+
+# -e    pattern. To specify multiple patterns to find.
+
+# OR
+#   ifconfig en0 | grep "inet" | cut -d ' ' -f2

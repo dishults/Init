@@ -1,0 +1,5 @@
+Normally :
+    /etc/resolv.conf
+However, ls -l on it shows that it's actually a symbolic link
+that takes us to the real path :
+    /var/run/resolv.conf

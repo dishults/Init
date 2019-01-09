@@ -1,0 +1,5 @@
+host slash16.org | grep 'address'
+
+# OR one of those :
+#   nslookup slash16.org
+#   dig slash16.org
