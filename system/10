@@ -1,0 +1,7 @@
+lsblk
+
+# or
+#   sudo fdisk -l
+# or
+# for an interactive user interface based on ncurses
+#   sudo cfdisk

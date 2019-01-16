@@ -1,0 +1,7 @@
+who
+#   display who is logged in
+
+# or
+#   w -- display who is logged in and what they are doing
+# or
+#   users -- list current users

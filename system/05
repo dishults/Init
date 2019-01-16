@@ -1,0 +1,5 @@
+sudo service ssh status
+
+# OR
+# sudo systemctl status ssh
+#   this one without sudo will just show the first part

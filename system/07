@@ -1,0 +1,6 @@
+cat /var/run/sshd.pid
+
+# or
+#   sudo service ssh status | grep "Main PID"
+# or
+#   ps -C sshd

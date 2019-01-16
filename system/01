@@ -1,0 +1,8 @@
+Current version with update point release:
+/etc/debian_version
+
+or just the version ID:
+/etc/issue
+
+or general release file:
+/etc/os-release

@@ -1,0 +1,9 @@
+sudo hostname dshults
+
+#   sudo hostname [newname]
+
+# or:
+#   To become root:
+#       sudo su
+#   Then without sudo:
+#       hostname [newname]

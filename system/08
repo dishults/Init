@@ -1,0 +1,4 @@
+Do the [cat] over this file to see the RSA keys of systems
+that are authorized to connect via SSH:
+
+~/.ssh/authorized_keys

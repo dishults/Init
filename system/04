@@ -1,0 +1,5 @@
+uptime
+
+# OR
+# who -b
+#   -b    time of last system boot
