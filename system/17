@@ -1,0 +1,14 @@
+ssh localhost
+
+# or any other host from /etc/hosts
+
+# In Debian in VirtualBox that works as it is.
+# In vagrant would have to do a few extra steps first :
+
+# 1. Generate public/private rsa key pair:
+#   ssh-keygen
+# 2. Manually add generated keys to authorized keys:
+#   cat .ssh/id_rsa >> .ssh/authorized_keys
+#   cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+# 3. Reboot SSH service:
+#   sudo service ssh restart

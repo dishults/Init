@@ -1,0 +1,13 @@
+# & - to put any process in the background
+# have to be root [sudo su] or add [sudo] before :
+
+tail -f /var/log/syslog &
+
+# To check the status of your job:
+#   jobs
+
+# To bring a background process to the foreground:
+#   fg
+
+# If you have more than one job suspended in the background:
+#   fg %<job_number>

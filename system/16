@@ -1,0 +1,11 @@
+This service is called:
+    Cron
+
+To modify tasks (cron jobs) which are defined in
+special configuration files (crontabs) use:
+    crontab
+
+Every user has their own crontab, including root (the administrator).
+    crontab -l          will list the crontab file for the current user
+    sudo crontab -l     will check the root crontab
+    crontab -e          the command to schedule tasks

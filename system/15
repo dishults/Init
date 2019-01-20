@@ -1,0 +1,18 @@
+# have to be root or add sudo before :
+
+kill $!
+
+# or
+#   kill %1
+# $! - last background process
+# %1 - 1st job
+
+# or
+#   sudo pkill tail
+
+# or
+#   kill PID
+# if that fails:
+#   kill -KILL PID
+# To determine a job's PID, enter:
+#   jobs -l
