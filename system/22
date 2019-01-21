@@ -1,0 +1,3 @@
+sudo adduser dshults
+
+# sudo deluser dshults  - to remove

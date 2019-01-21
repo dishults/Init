@@ -1,0 +1,7 @@
+cat /etc/passwd | grep '/home/' | awk -F ':' '{print $1}'
+
+# or
+#   ls /home
+#   as all currently existing human users on the system will have
+#   home directories in /home, so you can just [ls] over it and
+#   it will give you a list of all real/human users

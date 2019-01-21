@@ -1,0 +1,6 @@
+sudo service ssh stop
+
+# or
+#   sudo systemctl stop ssh
+# or
+#   sudo /etc/init.d/ssh stop

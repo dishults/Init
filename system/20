@@ -1,0 +1,4 @@
+cat /etc/passwd | awk -F ':' '{print $1}'
+
+# or
+#   getent passwd | awk -F ':' '{print $1}'

@@ -1,0 +1,4 @@
+apt list --installed
+
+# or
+#   dpkg --get-selections

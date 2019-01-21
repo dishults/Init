@@ -1,0 +1,26 @@
+GRAPHIC:
+    click on the power icon in the upper right corner
+    click on your current user
+    click either Switch User or Logout
+    click on the new user you want to log into
+    enter it's password
+    you're in !
+Or from terminal:
+    sudo login dshults
+
+SSH:
+    ssh dshults@localhost
+
+# In vagrant for this to work, I would first need to:
+#   add my key from departing to receiving host (vagrant to dshults) :
+
+# sudo login dshults
+# ssh-keygen    (to create .ssh folder with keys for dshults)
+# exit
+# ssh-keygen    (to create .ssh folder with keys for vagrant)
+# sudo su
+# cd ..
+# cat vagrant/.ssh/id_rsa >> dshults/.ssh/authorized_keys
+# cat vagrant/.ssh/id_rsa.pub >> dshults/.ssh/authorized_keys
+# service ssh restart
+# exit

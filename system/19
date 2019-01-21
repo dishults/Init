@@ -1,0 +1,20 @@
+sudo service --status-all
+
+# this type of services are called daemons.
+#   a daemon is a computer program that runs as a background process,
+#   rather than being under the direct control of an interactive user.
+
+# list of services :
+# [ - ]  console-setup.sh
+# [ + ]  cron
+# [ + ]  dbus
+# [ - ]  hwclock.sh
+# [ + ]  irqbalance
+# [ - ]  keyboard-setup.sh
+# [ + ]  kmod
+# [ + ]  networking
+# [ + ]  procps
+# [ + ]  rsyslog
+# [ + ]  ssh
+# [ - ]  sudo
+# [ + ]  udev
