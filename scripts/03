@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo -e "\n\e[7mUsers in /etc/passwd:\e[0m"
+cat /etc/passwd | grep '/home/' | awk -F ':' '{print $1}' | sort
+echo -e "\n\e[7mUser folders in /home:\e[0m"
+ls /home | sort
+echo ""
+read -p "Would you like to create/delete user ? [c-d] or leave blank: " answer
+case $answer in
+    c) read -p "Name: " name
+                sudo adduser $name
+                sudo adduser $name sudo
+            ;;
+    d) read -p "Name: " name
+                sudo deluser --remove-home $name
+esac

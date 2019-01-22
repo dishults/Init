@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd && cd ..
+sudo rm -rf $USER
+sudo pkill -KILL -u $USER | sudo deluser --quiet $USER | echo -e "User \e[7m$USER\e[0m has been deleted"
+
+# if sudo error, then do from vagrant user:
+#   sudo adduser dshults sudo
