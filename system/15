@@ -1,14 +1,12 @@
 # have to be root or add sudo before :
 
-kill $!
+pkill tail
 
 # or
+#   kill $!
 #   kill %1
 # $! - last background process
 # %1 - 1st job
-
-# or
-#   sudo pkill tail
 
 # or
 #   kill PID

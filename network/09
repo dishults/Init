@@ -2,4 +2,4 @@
 163.172.250.12
 163.172.250.11
 
-# host 42.fr | grep 'address'
+# host 42.fr 8.8.8.8 | grep 'address'

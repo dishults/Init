@@ -1,2 +1,2 @@
-In traceroute check:
-    1   name (ip)
+In traceroute check the line with [nat], normally it should be:
+    2  nat-1 (10.60.1.11)

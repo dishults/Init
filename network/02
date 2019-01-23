@@ -3,7 +3,8 @@
 
 ifconfig en0 | grep -o 'broadcast.*'
 echo
-arp -i en0 -a
+arp -i en0 -a | grep "^[^?]"
 
 # -i    specifies interface
 # -a    displays all
+# ^[^?] don't show the lines that begin with ? char

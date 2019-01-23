@@ -14,6 +14,7 @@ sudo service --status-all
 # [ + ]  kmod
 # [ + ]  networking
 # [ + ]  procps
+# [ - ]  rsync
 # [ + ]  rsyslog
 # [ + ]  ssh
 # [ - ]  sudo
