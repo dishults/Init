@@ -1,6 +1,11 @@
 sudo hostname dshults
 
-#   sudo hostname [newname]
+#   to verify just [sudo su] you will see root@dshults
+
+# to resolve problem:
+#   "sudo: unable to resolve host dshults"
+# do:
+#   in /etc/hosts change localhost to dshults
 
 # or:
 #   To become root:
