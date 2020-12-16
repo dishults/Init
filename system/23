@@ -20,7 +20,6 @@ SSH:
 # ssh-keygen    (to create .ssh folder with keys for vagrant)
 # sudo su
 # cd ..
-# cat vagrant/.ssh/id_rsa >> dshults/.ssh/authorized_keys
 # cat vagrant/.ssh/id_rsa.pub >> dshults/.ssh/authorized_keys
 # service ssh restart
 # exit
